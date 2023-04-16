@@ -1,0 +1,1 @@
+var a="DIRECT",b="PROXY 127.0.0.1:8021";function d(o,p){return dnsDomainIs(o,p)}function FindProxyForURL(o,p){var r=p.toLowerCase();return d(r,"ocsp.apple.com")||d(r,"ocsp2.apple.com")||d(r,"ppq.apple.com")?b:a}
